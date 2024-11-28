@@ -1,0 +1,108 @@
+<sait>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Илья - Мой сайт</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif; /* Более современный шрифт */
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #007bff; /* Яркий акцентный цвет */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px; /* Скругленные углы у изображений */
+        }
+
+        .section-content {
+            display: flex;
+            flex-wrap: wrap; /* Разрешаем перенос на новую строку */
+            justify-content: space-between; /* Распределение по ширине */
+        }
+        .section-content > div {
+            flex-basis: 48%; /* Ширина каждого блока */
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design (адаптация под разные экраны) */
+        @media (max-width: 768px) {
+            .section-content > div {
+                flex-basis: 100%; /* Занимает всю ширину на маленьких экранах */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Илья</h1>
+        <p>Родился 18.06.2009</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Обо мне</h2>
+            <p>Привет! Меня зовут Илья, я учусь в 9 классе. Я ровный тип, люблю гоночные машины и футбол.  На этом сайте вы найдете немного информации обо мне и моих увлечениях.</p>
+        </section>
+
+        <section>
+            <h2>Мои увлечения</h2>
+            <div class="section-content">
+                <div>
+                    <h3>Гоночные машины</h3>
+                    <img src="https://i.pinimg.com/736x/90/ac/11/90ac11bcec6011bc3713e0ebc30518f9.jpg" alt="Формула 1">
+                    <p>Формула 1 – это моя самая любимая гоночная серия!  Мне нравится скорость, адреналин и технологичность машин.</p>
+                </div>
+                <div>
+                    <h3>Футбол</h3>
+                    <img src="https://i.pinimg.com/736x/7b/e2/f2/7be2f2eccd0835795e2f10255e953fc3.jpg" alt="Футбол">
+                    <p>Футбол – это командная игра, требующая выносливости, ловкости и командной работы.  Я играю в футбол со своими друзьями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Контакты</h2>
+            <p>tg: @djdkfjrb</p>
+            <p>inst: @chinazes_10007</p>
+            <p>email: evaluchaiasis@gmail.com</p>
+        </section>
+    </div>
+</body>
+</html>
